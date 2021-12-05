@@ -1,0 +1,21 @@
+Teensy 2.0 + DS18B20 USB thermometer firmware.
+
+Teensy 2.0
+https://www.pjrc.com/teensy/
+
+DS18B20 1-wire
+https://3d-diy.ru/wiki/arduino-datchiki/tsifrovoy-datchik-temperatury-ds18b20/
+https://gerbest.com.ua/cifrovoj-datchik-temperatury-ds18b20-1-m
+
+VDD -- red
+GND -- black
+DQ  -- yellow
+
+
+$ make
+$ make load
+$ cat /dev/hidraw0
+24.56
+24.62
+24.62
+^C
